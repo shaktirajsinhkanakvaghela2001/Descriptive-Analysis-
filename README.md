@@ -1,5 +1,4 @@
-# Descriptive-Analysis-
-Descriptive Analysis of Customer Purchase Patterns
+# Descriptive-Analysis
 # **Descriptive Analysis of Customer Purchase Patterns at a UK-based online store**  
 
 ## **📌 Project Overview**  
