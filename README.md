@@ -28,7 +28,6 @@ The cultural dataset contains:
 - Set up S3 event notifications to trigger downstream processes
 
 **Technical Specifications:**
-```bash
 s3://prj-raw-sk/
 └── cultural-sk/
     ├── cultural-spaces(2).csv
@@ -40,18 +39,18 @@ s3://prj-raw-sk/
 Implemented comprehensive data quality checks through:
 
 - **Three-tier profiling strategy**:
-  ```mermaid
+
   graph TD
     A[Full Dataset Profile] --> B[Identify global patterns]
     C[Stratified by LOCAL_AREA] --> D[Neighborhood-specific insights]
     E[Random Sample] --> F[Quality rule validation]
 
 2. **Enhanced Data Cleaning Section**:
-```markdown
+
 ## 3. Data Cleaning & Transformation
 
 ### Workflow Architecture
-```mermaid
+
 flowchart LR
     A[Raw CSV] --> B(DataBrew Cleaning)
     B --> C{Validation}
@@ -60,7 +59,7 @@ flowchart LR
     D --> F[Glue Catalog]
 
 3. **Pro Tip**: Add visual badges to showcase your tech stack:
-```markdown
+
 ## Technical Specifications
 
 **AWS Stack**:
